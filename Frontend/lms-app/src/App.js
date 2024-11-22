@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default function App() {
   return (
     <div>
@@ -8,3 +9,14 @@ export default function App() {
     </div>
   )
 }
+
+const App = () => {
+  return (
+    <>
+      
+    </>
+  )
+}
+
+export default App
+
