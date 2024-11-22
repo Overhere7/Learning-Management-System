@@ -1,13 +1,22 @@
+
 import logo from './logo.svg';
 import './App.css';
 import Hero from './components/Hero/Hero';
+=======
+import React from 'react'
 
-function App() {
+
+
+export default function App() {
   return (
     <div>
-      <Hero/>
-    </div>
-  );
-}
 
-export default App;
+      <Hero/>
+
+      <h1>hello World </h1>
+
+    </div>
+  )
+}
+export default App
+
