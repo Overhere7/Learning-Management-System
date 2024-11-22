@@ -1,0 +1,28 @@
+{
+  "name": "learning-management-system",
+  "version": "1.0.0",
+  "description": "The Project will be around LMS for a organization with management tool to manage courses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Overhere7/Learning-Management-System.git"
+  },
+  "keywords": [
+    "LMS"
+  ],
+  "author": "Rishav Tarway, Pradip Giri, Raja Nayak, Avinash Kumar Singh , Aranya Raha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Overhere7/Learning-Management-System/issues"
+  },
+  "homepage": "https://github.com/Overhere7/Learning-Management-System#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2",
+    "nodemon": "^3.1.7"
+  }
+}
