@@ -9,11 +9,9 @@ const Navbar = () => {
         <div className="flex-row">
           <div className="brand">
             <BookOpen className="icon" />
-            <span className="brand-name">EduLearn</span>
+            <span className="brand-name">PolarisLMS</span>
           </div>
           <div className="nav-links">
-            <a href="#" className="link">Dashboard</a>
-            <a href="#" className="link">My Courses</a>
             <a href="#" className="link">Calendar</a>
           </div>
         </div>
