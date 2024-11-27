@@ -1,0 +1,109 @@
+/* Navbar.css */
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+  }
+  
+  .flex-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .icon {
+    width: 32px;
+    height: 32px;
+    color: #2563eb;
+  }
+  
+  .brand-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #111827;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .link {
+    color: #374151;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .link:hover {
+    color: #2563eb;
+  }
+  
+  .search-and-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .search-icon {
+    width: 20px;
+    height: 20px;
+    color: #9ca3af;
+  }
+  
+  .search-input {
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    padding: 4px 8px;
+    outline: none;
+    font-size: 0.875rem;
+  }
+  
+  .search-input:focus {
+    border-color: #2563eb;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .user {
+    background-color: #bfdbfe;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .user-icon {
+    width: 20px;
+    height: 20px;
+    color: #2563eb;
+  }
+  

@@ -1,22 +1,18 @@
-
-import logo from './logo.svg';
-import './App.css';
-import Hero from './components/Hero/Hero';
-=======
 import React from 'react'
+import Navbar from './components/Navbar/Navbar'
+import Sidebar from './components/Sidebar/Sidebar'
+import CourseCard from './components/CourseCard/CaurseCard'
 
-
-
-export default function App() {
+const App = () => {
   return (
     <div>
-
-      <Hero/>
-
-      <h1>hello World </h1>
-
+      <Navbar/>
+      <Sidebar/>
+      <CourseCard/>
     </div>
   )
 }
+
 export default App
+
 
